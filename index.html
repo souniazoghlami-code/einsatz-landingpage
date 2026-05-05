@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <title>Ein.Satz – Ordnung, wenn Verwaltung zu viel wird</title>
-<meta name="description" content="Ein.Satz unterstützt ältere Menschen und Angehörige bei Verwaltung, Nachlass, Behörden und Organisation – diskret, strukturiert und persönlich.">
+<meta name="description" content="Ein.Satz unterstützt ältere Menschen, Angehörige und Fachpersonen bei Verwaltung, Nachlass, Behörden und Organisation – diskret, strukturiert und persönlich.">
 
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
@@ -217,6 +217,17 @@ section {
   color: var(--green-dark);
 }
 
+.cooperation {
+  background: var(--paper);
+}
+
+.cooperation-box {
+  border: 1px solid var(--line);
+  background: #fbf7ef;
+  padding: 36px;
+  box-shadow: 0 20px 60px rgba(23,56,47,0.05);
+}
+
 .process {
   background: linear-gradient(180deg, var(--cream), #efe5d3);
 }
@@ -327,6 +338,10 @@ footer {
   font-size: 13px;
 }
 
+.legal a {
+  color: #d8cbb8;
+}
+
 @media (max-width: 900px) {
   nav {
     display: none;
@@ -351,6 +366,11 @@ footer {
   .about img {
     min-height: 360px;
   }
+
+  .footer-links a {
+    display: block;
+    margin: 8px 0 0 0;
+  }
 }
 </style>
 </head>
@@ -362,6 +382,7 @@ footer {
     <img src="logo.png" alt="Ein.Satz Logo" class="logo">
     <nav>
       <a href="#leistungen">Leistungen</a>
+      <a href="#fachpersonen">Für Fachpersonen</a>
       <a href="#ablauf">Ablauf</a>
       <a href="#ueber">Über mich</a>
       <a href="#kontakt">Kontakt</a>
@@ -373,16 +394,16 @@ footer {
 
 <section class="hero">
   <div class="container hero-content">
-    <div class="kicker">Diskrete Verwaltungshilfe & persönliche Entlastung</div>
+    <div class="kicker">Verwaltungshilfe & persönliche Entlastung</div>
     <h1>Ordnung, wenn Verwaltung zu viel wird.</h1>
     <p class="lead">
-      Ein.Satz unterstützt ältere Menschen und Angehörige bei Verwaltung, Nachlass, Behörden und Organisation –
-      persönlich, diskret und mit ruhiger Struktur.
+      Ein.Satz unterstützt ältere Menschen, Angehörige und Fachpersonen bei Verwaltung, Nachlass,
+      Behörden und Organisation – persönlich, diskret und strukturiert.
     </p>
     <p class="trustline">Verlässlich · klar · vertraulich · Schritt für Schritt</p>
 
     <div class="btn-row">
-      <a href="#kontakt" class="btn">Erstes Gespräch vereinbaren</a>
+      <a href="#kontakt" class="btn">Kontakt aufnehmen</a>
       <a href="#leistungen" class="btn secondary">Mehr erfahren</a>
     </div>
   </div>
@@ -391,16 +412,17 @@ footer {
 <section class="intro">
   <div class="container intro-grid">
     <div>
-      <div class="kicker">Family Office des Alltags</div>
-      <h2>Private Angelegenheiten verdienen professionelle Ordnung.</h2>
+      <div class="kicker">Entlastung im Alltag</div>
+      <h2>Private Angelegenheiten brauchen manchmal professionelle Ordnung.</h2>
     </div>
     <div>
       <p>
-        Wenn Dokumente, Fristen, Behörden oder Nachlassfragen unübersichtlich werden, braucht es keine Hektik –
-        sondern jemanden, der sortiert, erklärt und begleitet.
+        Wenn Unterlagen, Fristen, Behörden oder Nachlassfragen unübersichtlich werden,
+        braucht es jemanden, der sortiert, erklärt und die nächsten Schritte vorbereitet.
       </p>
       <p>
-        Ein.Satz versteht sich als ruhige, persönliche Schnittstelle zwischen Anliegen, Unterlagen und nächsten Schritten.
+        Ein.Satz versteht sich als ruhige Schnittstelle zwischen Anliegen, Dokumenten,
+        Fachpersonen und konkreter Umsetzung.
       </p>
     </div>
   </div>
@@ -409,15 +431,15 @@ footer {
 <section id="leistungen">
   <div class="container">
     <div class="kicker">Wobei ich unterstütze</div>
-    <h2>Entlastung in sensiblen Lebenssituationen.</h2>
+    <h2>Entlastung bei Verwaltung, Nachlass und Organisation.</h2>
 
     <div class="cards">
       <div class="card">
         <div class="number">01</div>
         <h3>Verwaltung & Behörden</h3>
         <p>
-          Unterstützung bei Schriftverkehr, Anträgen, Unterlagen und organisatorischen Themen – verständlich,
-          strukturiert und zuverlässig.
+          Unterstützung bei Schriftverkehr, Formularen, Anträgen, Terminen und organisatorischen Themen –
+          verständlich, strukturiert und zuverlässig.
         </p>
       </div>
 
@@ -425,7 +447,7 @@ footer {
         <div class="number">02</div>
         <h3>Nachlass & Dokumente</h3>
         <p>
-          Hilfe beim Ordnen von Unterlagen, beim Erfassen offener Themen und beim Wiederherstellen von Überblick –
+          Hilfe beim Ordnen von Unterlagen, beim Erfassen offener Punkte und beim Wiederherstellen von Überblick –
           Schritt für Schritt.
         </p>
       </div>
@@ -440,7 +462,31 @@ footer {
     </div>
 
     <div class="note">
-      Auf Wunsch begleite ich Sie auch persönlich vor Ort – im regionalen Umkreis und nach individueller Absprache.
+      Auf Wunsch begleite ich auch persönlich vor Ort – im regionalen Umkreis und nach individueller Absprache.
+    </div>
+  </div>
+</section>
+
+<section id="fachpersonen" class="cooperation">
+  <div class="container">
+    <div class="kicker">Für Steuerberater, Rechtsanwälte und Betreuer</div>
+    <h2>Zuarbeit, wenn Mandantenunterlagen erst sortiert werden müssen.</h2>
+
+    <div class="cooperation-box">
+      <p>
+        Ein.Satz unterstützt bei organisatorischen und administrativen Vorarbeiten, damit Fachpersonen
+        klarere Unterlagen, bessere Übersichten und vorbereitete Rückfragen erhalten.
+      </p>
+
+      <p>
+        Dazu gehören zum Beispiel das Sortieren von Dokumenten, das Erfassen offener Punkte,
+        das Vorbereiten einfacher Übersichten und die Koordination von Rückfragen mit Angehörigen oder Mandanten.
+      </p>
+
+      <p>
+        Ich ersetze keine rechtliche, steuerliche oder betreuungsrechtliche Beratung.
+        Ziel ist es, Fachpersonen zu entlasten und Mandanten strukturierter vorzubereiten.
+      </p>
     </div>
   </div>
 </section>
@@ -453,31 +499,31 @@ footer {
     <div class="steps">
       <div class="step">
         <div class="number">1</div>
-        <h3>Erstes Gespräch</h3>
-        <p>Wir klären Ihre Situation in Ruhe – unverbindlich und ohne Verpflichtung.</p>
+        <h3>Kontakt</h3>
+        <p>Sie schildern kurz, worum es geht und welche Unterstützung benötigt wird.</p>
       </div>
 
       <div class="step">
         <div class="number">2</div>
         <h3>Überblick</h3>
-        <p>Ich verschaffe mir ein klares Bild und zeige verständlich auf, welche Schritte sinnvoll sind.</p>
+        <p>Ich verschaffe mir ein klares Bild und ordne die nächsten sinnvollen Schritte.</p>
       </div>
 
       <div class="step">
         <div class="number">3</div>
         <h3>Umsetzung</h3>
-        <p>Ich unterstütze bei der Organisation, beim Sortieren und bei den nächsten konkreten Aufgaben.</p>
+        <p>Ich unterstütze beim Sortieren, Vorbereiten, Koordinieren und Nachhalten.</p>
       </div>
 
       <div class="step">
         <div class="number">4</div>
         <h3>Entlastung</h3>
-        <p>Sie gewinnen wieder Klarheit, Sicherheit und mehr Ruhe im Alltag.</p>
+        <p>Sie gewinnen wieder Klarheit, Struktur und mehr Ruhe im Alltag.</p>
       </div>
     </div>
 
     <div class="note">
-      Jeder Schritt erfolgt in Ihrem Tempo und nach Ihren Bedürfnissen.
+      Jeder Schritt erfolgt nach vorheriger Absprache und in einem Tempo, das zur Situation passt.
     </div>
   </div>
 </section>
@@ -496,9 +542,9 @@ footer {
         organisatorische und administrative Themen zu bringen – besonders dann, wenn vieles gleichzeitig ansteht.
       </p>
       <p>
-        Durch meine Erfahrung in Verwaltung, Assistenz und komplexer Organisation weiß ich, wie schnell Unterlagen,
-        Fristen und Zuständigkeiten unübersichtlich werden können. Genau dort setze ich an:
-        ruhig, strukturiert und mit Respekt vor Ihrer persönlichen Situation.
+        Durch meine Erfahrung in Verwaltung, Assistenz und komplexer Organisation weiß ich,
+        wie schnell Unterlagen, Fristen und Zuständigkeiten unübersichtlich werden können.
+        Genau dort setze ich an: ruhig, strukturiert und respektvoll.
       </p>
       <p>
         Mir ist wichtig, dass Sie sich gut begleitet fühlen – ohne Druck, ohne Hektik und ohne unnötige Komplexität.
@@ -514,7 +560,7 @@ footer {
     <div class="kicker">Transparenz</div>
     <h2>Klare Absprachen statt versteckter Kosten.</h2>
     <p>
-      Jede Situation ist individuell. Nach einem ersten Gespräch erhalten Sie eine klare Einschätzung,
+      Jede Situation ist individuell. Nach einem ersten Kontakt erhalten Sie eine klare Einschätzung,
       welcher Aufwand sinnvoll ist und welche nächsten Schritte möglich sind.
     </p>
     <p>
@@ -530,21 +576,17 @@ footer {
       <div class="kicker">Kontakt</div>
       <h2>Lassen Sie uns in Ruhe sprechen.</h2>
       <p>
-        Oft lassen sich viele Fragen am einfachsten in einem persönlichen Gespräch klären.
-        Rufen Sie gerne an – oder schreiben Sie eine kurze Nachricht.
+        Oft lassen sich viele Fragen am einfachsten in einem kurzen Gespräch oder per E-Mail klären.
+        Schreiben Sie mir gerne eine Nachricht mit Ihrem Anliegen.
       </p>
 
-      <p class="contact-line"><strong>Telefon:</strong> Ihre Telefonnummer</p>
-      <p class="contact-line"><strong>E-Mail:</strong> sonia@einsatz.de</p>
+      <p class="contact-line"><strong>Telefon:</strong> auf Anfrage</p>
+      <p class="contact-line"><strong>E-Mail:</strong> info@ein-satz.eu</p>
 
-      <p>
-        Wenn ich gerade nicht erreichbar bin, rufe ich Sie zeitnah zurück.
-      </p>
-
-      <a href="mailto:sonia@einsatz.de" class="btn">Nachricht senden</a>
+      <a href="mailto:info@ein-satz.eu" class="btn">Nachricht senden</a>
 
       <p class="small">
-        Ihre Angaben werden selbstverständlich vertraulich behandelt.
+        Ihre Angaben werden vertraulich behandelt.
       </p>
     </div>
   </div>
@@ -566,21 +608,30 @@ footer {
   </div>
 
   <div class="legal" id="impressum">
-   <strong>Impressum</strong><br>
-Ein.Satz – Sonia Zoghlami<br>
-Markusgasse 4<br>
-32130 Enger<br>
-Deutschland<br><br>
-E-Mail: info@ein-satz.eu
-    Inhaltlich verantwortlich: Sonia Zoghlami
+    <strong>Impressum</strong><br><br>
+    Ein.Satz – Sonia Zoghlami<br>
+    Markusgasse 4<br>
+    32130 Enger<br>
+    Deutschland<br><br>
+    E-Mail: <a href="mailto:info@ein-satz.eu">info@ein-satz.eu</a><br><br>
+    Verantwortlich für den Inhalt: Sonia Zoghlami
   </div>
 
   <div class="legal" id="datenschutz">
-    <strong>Datenschutz</strong><br>
-    Diese Website verarbeitet personenbezogene Daten nur, soweit dies zur Kontaktaufnahme erforderlich ist.
-    Bei Kontaktaufnahme per E-Mail oder Telefon werden die übermittelten Angaben ausschließlich zur Bearbeitung
-    Ihrer Anfrage genutzt. Eine Weitergabe an Dritte erfolgt nicht ohne Ihre Zustimmung.
-    Bitte lassen Sie Impressum und Datenschutzhinweise vor Veröffentlichung rechtlich prüfen.
+    <strong>Datenschutz</strong><br><br>
+
+    Diese Website dient der Information über meine Dienstleistungen.<br><br>
+
+    Beim Aufruf der Website können technische Daten wie IP-Adresse, Browser und Zeitpunkt verarbeitet werden.
+    Die Website wird über Vercel gehostet.<br><br>
+
+    Wenn Sie mich per E-Mail kontaktieren, werden Ihre Angaben zur Bearbeitung Ihrer Anfrage gespeichert.<br><br>
+
+    Eine Weitergabe Ihrer Daten erfolgt nicht ohne Ihre Zustimmung.<br><br>
+
+    Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer personenbezogenen Daten.<br><br>
+
+    Kontakt: <a href="mailto:info@ein-satz.eu">info@ein-satz.eu</a>
   </div>
 </footer>
 
